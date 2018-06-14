@@ -158,7 +158,6 @@ footer {
     padding: 15px; 
     border-top: 10px solid #4aaaa5;
     position: fixed;
-    width: 100%;
     bottom: 0px;
     right: 0px;
     left: 0px;  
@@ -170,3 +169,74 @@ footer {
     display: block;
     clear: both;
 }
+
+@media screen and (max-width: 768px) {
+
+}
+
+@media screen and (max-width: 640px) {
+body {
+    width: 100%;
+}
+
+.header {
+    width: 100%;
+    float: none;
+    position: static;
+}
+
+#name {
+    width: 100%;
+}
+
+.header-right {
+    width: 100%;
+    top: 50%;
+    left: 39%;
+    padding: 20px;
+}
+
+
+.content {
+    width: 100%;
+}
+
+#my-photo {
+    width: 100%;;
+    position: relative;
+    height: 100%;
+    width: 350px;
+    left: 22%
+}
+
+p {
+    width: 100%;
+    clear: both;
+}
+
+.form-length {
+    width: 100%;
+}
+textarea {
+    width: 100%;
+}
+
+.grid-container {
+    width: 100%;
+    grid-template-columns: none;
+    left: 28%;
+}
+
+.grid-item {
+    width: 100%;
+}
+
+.bottom-center {
+    width: 35.35%;
+}
+
+footer {
+    width: 69%;
+    position: fixed;
+}
+} 
