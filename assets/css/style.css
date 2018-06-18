@@ -250,6 +250,9 @@ footer {
         border-left: none;
     }
     
+    p {
+        line-height: 1.25;
+    }
    
     .form-length {
         width: 100%;
@@ -307,8 +310,6 @@ body {
     width: 100%;;
     position: relative;
     height: 100%;
-    width: 350px;
-    left: 22%
 }
 
 p {
@@ -348,7 +349,7 @@ footer {
 }
 
 #special-footer {
-    position: absolute;
+    position: relative;
 }
 } 
 
